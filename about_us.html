@@ -4,7 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
+<header class="top-header">
+    <h1>GG PRODUCTIONS</h1>
+    <a href="javascript:void(0)" class="menyKnapp" onclick="openNav()" &times>&#9776;</a>
+</header>
+
+<div id="meny" class="meny1">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" &times>&times;</a>
+    <ul>
+        <il>
+            <a href="index.html" class="meny-text">Hem</p>
+        </il>
+        <il>
+            <a href="about_us.html" class="meny-text"> Products </a>
+        </il>
+        <il>
+            <p class="meny-text">About us</p>
+        </il>
+        <il>
+            <p class="meny-text">Contanct us</p>
+        </il>
+    </ul>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("meny").style.width = "20vw";
+    }
+
+    function closeNav() {
+        document.getElementById("meny").style.width = "0";
+    }
+</script>
+
+
+
 <body>
     <p>hello</p>
 </body>
