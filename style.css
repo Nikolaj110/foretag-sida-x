@@ -15,6 +15,10 @@
   margin-bottom: 10%;
 }
 
+body {
+  background-color: #316a2d;
+}
+
 .menyKnapp {
   font-size: 35px;
   grid-column-start: 3;
@@ -28,6 +32,12 @@
   text-decoration: underline;
 }
 
+.closebtn {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
 .nav-header {
   background-color: sienna;
   color: silver;
@@ -39,11 +49,11 @@
 }
 
 .header-bild {
-  width: 80%;
+  width: 90%;
 }
 
 .meny1 {
-  background-color: #08570d;
+  background-color: black;
   height: 100vh;
   width: 0vw;
   top: 0;
@@ -51,7 +61,6 @@
   overflow-x: hidden;
   position: fixed;
   margin-top: 20px;
-  border: solid black;
 }
 
 .meny-text {
@@ -69,9 +78,33 @@
 .vanlig-text {
   font-size: 20px;
   width: 70%;
+  color: seashell;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-.vanlig-text-div{
+.vanlig-text-div {
   display: flex;
   justify-content: center;
+}
+
+.produkter {
+  display: grid;
+  grid-template-columns: 10vw 35vw 10vw 45vw 10vw;
+  grid-template-rows: 10vw 30vw 10vw;
+}
+
+.produkt-1 {
+  background-color: white;
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.produkt-1-bild {
+  width: 100%;
 }
