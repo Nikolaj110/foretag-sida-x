@@ -107,11 +107,11 @@ body {
 }
 
 .produkt-1 h1 {
+  font-family: "Goldman", cursive;
   margin-top: 0%;
   margin-bottom: 5%;
   font-size: calc(5px + 2vw);
 }
-
 
 .produkt-2 {
   background-color: white;
@@ -125,6 +125,7 @@ body {
   border: solid black 3px;
 }
 .produkt-2 h1 {
+  font-family: "Goldman", cursive;
   margin-top: 0%;
   margin-bottom: 5%;
   font-size: calc(5px + 2vw);
@@ -134,11 +135,11 @@ body {
   font-size: calc(10px + 2vw);
 }
 
-.köp-knapp{
-background-color: #08570d;
-color: white;
-width: 50%;
-height: 10%;
+.köp-knapp {
+  background-color: #08570d;
+  color: white;
+  width: 50%;
+  height: 10%;
 }
 
 .produkt-1-bild {
