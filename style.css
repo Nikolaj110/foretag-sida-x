@@ -90,8 +90,8 @@ body {
 
 .produkter {
   display: grid;
-  grid-template-columns: 10vw 35vw 10vw 35vw 10vw;
-  grid-template-rows: 10vw 20vw 10vw;
+  grid-template-columns: 8vw 35vw 10vw 35vw 8vw;
+  grid-template-rows: 10vw 40vw 10vw;
 }
 
 .produkt-1 {
@@ -103,6 +103,42 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
+  border: solid black 3px;
+}
+
+.produkt-1 h1 {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: calc(5px + 2vw);
+}
+
+
+.produkt-2 {
+  background-color: white;
+  grid-column: 4;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+}
+.produkt-2 h1 {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: calc(5px + 2vw);
+}
+
+.priser {
+  font-size: calc(10px + 2vw);
+}
+
+.köp-knapp{
+background-color: #08570d;
+color: white;
+width: 50%;
+height: 10%;
 }
 
 .produkt-1-bild {
