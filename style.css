@@ -90,8 +90,8 @@ body {
 
 .produkter {
   display: grid;
-  grid-template-columns: 10vw 35vw 10vw 45vw 10vw;
-  grid-template-rows: 10vw 30vw 10vw;
+  grid-template-columns: 10vw 35vw 10vw 35vw 10vw;
+  grid-template-rows: 10vw 20vw 10vw;
 }
 
 .produkt-1 {
@@ -100,11 +100,11 @@ body {
   grid-row: 2;
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .produkt-1-bild {
-  width: 100%;
+  width: 60%;
 }
