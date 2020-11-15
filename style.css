@@ -62,10 +62,13 @@ body {
   position: fixed;
   margin-top: 20px;
   border: solid black;
+  margin-top: 0;
 }
 
 .meny-text {
-  color: white;
+  color: #08570d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vh;
 }
 
 .sidenav .closebtn {
