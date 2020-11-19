@@ -135,6 +135,25 @@ body {
   font-size: calc(5px + 2vw);
 }
 
+.produkt-3 {
+  background-color: white;
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+}
+
+.produkt-3 h1 {
+  font-family: "Goldman", cursive;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: calc(5px + 2vw);
+}
+
 .priser {
   font-size: calc(10px + 2vw);
   font-family: "Goldman", cursive;
@@ -151,6 +170,11 @@ body {
   width: 60%;
 }
 
-.footer{
-background-color: #08570d;
+.produkter-body {
+  display: grid;
+  grid-template-columns: 10% 15% 15% 15% 15% 10%;
+}
+
+.footer {
+  background-color: #08570d;
 }
