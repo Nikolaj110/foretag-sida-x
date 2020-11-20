@@ -151,7 +151,8 @@ body {
   font-family: "Goldman", cursive;
   margin-top: 0%;
   margin-bottom: 5%;
-  font-size: calc(5px + 2vw);
+  font-size: calc(3px + 1.5vw);
+  text-align: center;
 }
 
 .produkt-4 {
@@ -200,6 +201,9 @@ body {
   color: white;
   width: 50%;
   height: 10%;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  font-family: "Goldman", cursive;
 }
 
 .produkt-1-bild {
