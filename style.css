@@ -201,8 +201,8 @@ body {
   color: white;
   width: 50%;
   height: 10%;
-  margin-bottom: 1vw;
-  margin-top: 1vw;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
   font-family: "Goldman", cursive;
 }
 
@@ -213,6 +213,7 @@ body {
 .produkter-body {
   display: grid;
   grid-template-columns: 2.5% 10% 15% 5% 15% 5% 15% 5% 15% 10% 2.5%;
+  margin-top: 10vh;
 }
 
 .footer {
