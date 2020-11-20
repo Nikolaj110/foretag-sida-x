@@ -79,8 +79,11 @@ body {
   margin-left: 0.5vw;
 }
 
-.meny-lista{
+.meny-lista {
   margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .vanlig-text {
@@ -208,6 +211,7 @@ body {
   margin-bottom: 1vh;
   margin-top: 1vh;
   font-family: "Goldman", cursive;
+  font-size: 1vw;
 }
 
 .produkt-1-bild {
