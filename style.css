@@ -68,15 +68,19 @@ body {
 .meny-text {
   color: #08570d;
   font-family: "Montserrat", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vw;
 }
 
-.sidenav .closebtn {
+.closebtn {
   position: absolute;
   top: 0;
-  right: 0;
-  font-size: 36px;
-  margin-left: 50px;
+  left: 0;
+  font-size: 3vw;
+  margin-left: 0.5vw;
+}
+
+.meny-lista{
+  margin-top: 7vh;
 }
 
 .vanlig-text {
