@@ -19,12 +19,6 @@ body {
   background-color: #316a2d;
 }
 
-.center-body{
-  background-color: #316a2d;
-  display: flex;
-  justify-content: center;
-}
-
 .menyKnapp {
   font-size: 35px;
   grid-column-start: 3;
@@ -95,7 +89,7 @@ body {
 }
 
 .vanlig-text {
-  font-size: 20px;
+  font-size: 2vw;
   width: 70%;
   color: seashell;
   font-family: "Montserrat", sans-serif;
@@ -232,11 +226,30 @@ body {
   margin-top: 10vh;
 }
 
-.varukorg-body{
+.varukorg-body1{
   display: flex;
   justify-content: center;
-  margin-top: 15vh;
+  color: white;
+  margin-bottom: 0;
+}
+.varukorg-body1 p{
+  font-size: 8vw;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 7vh;
+}
+
+.varukorg-body1 i{
+font-size: 9vw;
+margin-top: 7vh;
+margin-right: 5vw;
+}
+
+.varukorg-body2{
+  display: flex;
+  justify-content: center;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .varukorg-lista{
@@ -248,7 +261,7 @@ body {
 }
 
 .varukorg-ruta{
-  border: solid 1px black;
+  border: solid 1.5px #08570d;
   display: flex;
   justify-content: center;
   font-size: 3vw;
@@ -259,6 +272,11 @@ body {
 .fa-shopping-cart{
 font-size: 8vw;
 margin-top: 4vh;
+}
+
+.om-oss-div{
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
