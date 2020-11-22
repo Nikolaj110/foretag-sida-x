@@ -19,6 +19,12 @@ body {
   background-color: #316a2d;
 }
 
+.center-body{
+  background-color: #316a2d;
+  display: flex;
+  justify-content: center;
+}
+
 .menyKnapp {
   font-size: 35px;
   grid-column-start: 3;
@@ -224,6 +230,35 @@ body {
   display: grid;
   grid-template-columns: 2.5% 10% 15% 5% 15% 5% 15% 5% 15% 10% 2.5%;
   margin-top: 10vh;
+}
+
+.varukorg-body{
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  height: 100%;
+}
+
+.varukorg-lista{
+  background-color: white;
+  width: 80%;
+  display: grid;
+  grid-row-start: 40% 20% 20% 20%;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.varukorg-ruta{
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.fa-shopping-cart{
+font-size: 8vw;
+margin-top: 4vh;
 }
 
 .footer {
