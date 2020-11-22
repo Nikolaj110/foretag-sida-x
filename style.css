@@ -63,7 +63,9 @@ body {
   color: #08570d;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5vw;
+  text-decoration: none;
 }
+
 
 .closebtn {
   color: white;
@@ -286,4 +288,10 @@ margin-top: 4vh;
 .footer ul{
   display: flex;
   justify-content: space-around;
+}
+
+.footer-text{
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
