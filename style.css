@@ -66,7 +66,6 @@ body {
   text-decoration: none;
 }
 
-
 .closebtn {
   color: white;
   position: absolute;
@@ -85,7 +84,7 @@ body {
   padding-left: 2vw;
 }
 
-.meny-lista il{
+.meny-lista il {
   display: flex;
   justify-self: center;
 }
@@ -225,7 +224,7 @@ body {
   font-size: 1vw;
 }
 
-.produkt-1-bild {
+.produkt-bild {
   width: 60%;
 }
 
@@ -235,25 +234,25 @@ body {
   margin-top: 10vh;
 }
 
-.varukorg-body1{
+.varukorg-body1 {
   display: flex;
   justify-content: center;
   color: white;
   margin-bottom: 0;
 }
-.varukorg-body1 p{
+.varukorg-body1 p {
   font-size: 8vw;
   font-family: "Montserrat", sans-serif;
   margin-top: 7vh;
 }
 
-.varukorg-body1 i{
-font-size: 9vw;
-margin-top: 7vh;
-margin-right: 5vw;
+.varukorg-body1 i {
+  font-size: 9vw;
+  margin-top: 7vh;
+  margin-right: 5vw;
 }
 
-.varukorg-body2{
+.varukorg-body2 {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -261,7 +260,7 @@ margin-right: 5vw;
   flex-wrap: wrap;
 }
 
-.varukorg-lista{
+.varukorg-lista {
   background-color: white;
   width: 80%;
   display: grid;
@@ -269,7 +268,7 @@ margin-right: 5vw;
   grid-template-columns: 25% 50% 25%;
 }
 
-.varukorg-ruta{
+.varukorg-ruta {
   border: solid 1.5px #08570d;
   display: flex;
   justify-content: center;
@@ -277,35 +276,33 @@ margin-right: 5vw;
   font-family: "Montserrat", sans-serif;
 }
 
-
-.fa-shopping-cart{
-font-size: 8vw;
-margin-top: 4vh;
+.fa-shopping-cart {
+  font-size: 8vw;
+  margin-top: 4vh;
 }
 
-.om-oss-div{
+.om-oss-div {
   display: flex;
   justify-content: center;
-
 }
 
 .footer {
   background-color: #08570d;
 }
 
-.footer ul{
+.footer ul {
   display: flex;
   justify-content: space-around;
 }
 
-.footer-text{
+.footer-text {
   font-size: 1.5vw;
   color: white;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15vh;
 }
 
-.kontakta-oss-text{
+.kontakta-oss-text {
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
   width: 60%;
