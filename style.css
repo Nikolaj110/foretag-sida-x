@@ -130,7 +130,7 @@ body {
 
 .produkt-1 h1 {
   font-family: "Goldman", cursive;
-  margin-top: 0%;
+  margin-top: 10%;
   margin-bottom: 5%;
   font-size: calc(5px + 2vw);
 }
@@ -148,7 +148,7 @@ body {
 }
 .produkt-2 h1 {
   font-family: "Goldman", cursive;
-  margin-top: 0%;
+  margin-top: 10%;
   margin-bottom: 5%;
   font-size: calc(5px + 2vw);
 }
